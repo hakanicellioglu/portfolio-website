@@ -1,0 +1,92 @@
+.skills {
+    height: calc(100vh - 10vh - 10vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-header {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #404040;
+    font-size: 200%;
+}
+
+.skill-box {
+    width: 50%;
+    height: 10%;
+    background-color: #BFBFBF;
+    color: #404040;
+    border-radius: 25px;
+    margin: 20px 0;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #404040;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-name {
+    width: 80%;
+    height: 100%;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar-percent {
+    width: 30%;
+}
+
+@media (max-width: 425px) {
+    .skills-header {
+        font-size: 100%;
+    }
+
+    .skill-box {
+        height: 5%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .logo{
+        font-size: 100%;
+    }
+    .skills-header {
+        font-size: 120%;
+    }
+
+    .skill-box {
+        height: 5%;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header{
+        height: 15vh;
+    }
+    .skills-header {
+        font-size: 150%;
+    }
+
+    .skill-box {
+        height: 8%;
+    }
+
+}
